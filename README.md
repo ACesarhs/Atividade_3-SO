@@ -93,15 +93,21 @@ atividade3/
 ```
 ---
 
-##🚀 Como Reproduzir
+## 🚀 Como Reproduzir
+
+---
 
 ### Baixe a imagem oficial do Python:
 docker pull python:3.12-slim
 
-###Execute os experimentos de carga (exemplo C1):
+---
+
+### Execute os experimentos de carga (exemplo C1):
 docker run --rm --cpus=0.5 --memory=256m --memory-swap=256m --pids-limit=64 -v "$HOME/carga_cpu.py:/carga_cpu.py:ro" python:3.12-slim python /carga_cpu.py 10000000
 
-###Para verificar o Throttling, execute a carga em background e leia o cgroup:
+---
+
+### Para verificar o Throttling, execute a carga em background e leia o cgroup:
 docker run -d --name test_c1 --cpus=0.5 -v "$HOME/carga_cpu.py:/carga_cpu.py:ro" python:3.12-slim python /carga_cpu.py 10000000
 docker exec test_c1 cat /sys/fs/cgroup/cpu.stat
 
