@@ -90,6 +90,7 @@ atividade3/
     ├── throttling_final.txt   # Dados do cpu.stat
     ├── oom_killer.txt         # Log do OOM Killer
     └── readonly.txt           # Registro de negação de escrita
+```
 ---
 
 ##🚀 Como Reproduzir
