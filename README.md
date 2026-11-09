@@ -112,3 +112,9 @@ docker run -d --name test_c1 --cpus=0.5 -v "$HOME/carga_cpu.py:/carga_cpu.py:ro"
 docker exec test_c1 cat /sys/fs/cgroup/cpu.stat
 
 ---
+
+## 📄 Entregáveis
+
+*   **Relatório em PDF:** Disponível na pasta [`/relatorio`](./relatorio).
+*   **Vídeo de Apresentação:** O link para o vídeo está disponível no arquivo [`/video/link_video.txt`](./video/link_video.txt). 
+    *   *Link direto:* [Assistir no Google Drive](https://drive.google.com/drive/folders/1a3MHNHYxrozXPKFu2K0VzJWTPxJBUYuv?usp=sharing)
