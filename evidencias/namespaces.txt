@@ -1,0 +1,13 @@
+========== CONTÊINER ns-a ==========
+PID no Host: 2888
+PID 1 interno: sleep
+Handle PID ns: pid:[4026532275]
+Handle MNT ns: mnt:[4026532266]
+Handle NET ns: net:[4026532277]
+
+========== CONTÊINER ns-b ==========
+PID no Host: 2942
+PID 1 interno: sleep
+Handle PID ns: pid:[4026532345]
+Handle MNT ns: mnt:[4026532342]
+Handle NET ns: net:[4026532347]
