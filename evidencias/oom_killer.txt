@@ -1,0 +1,5 @@
+=== TESTE DE ESTRESSE DE MEMÓRIA (OOM KILLER) ===
+Ao tentar alocar 300MB em um contêiner limitado a 256M, o Kernel interveio:
+[ 3316.826999] Memory cgroup out of memory: Killed process 5688 (python) total-vm:321376kB, anon-rss:211376kB
+[ 3338.862380] Memory cgroup out of memory: Killed process 5917 (python) total-vm:321376kB, anon-rss:261120kB
+(A VM host permaneceu estável e operante).

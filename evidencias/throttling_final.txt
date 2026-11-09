@@ -1,0 +1,8 @@
+=== TESTE DE THROTTLING (CPU.STAT) ===
+C1 (0.5 CPU):
+nr_throttled 69
+throttled_usec 4989906
+
+C2 (1.0 CPU):
+nr_throttled 24
+throttled_usec 2714041
